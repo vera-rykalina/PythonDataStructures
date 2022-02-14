@@ -73,7 +73,7 @@ number = int(input("Type a number : "))
 List3 = list(range(3, number, 3))
 print(List3)
 
-# List functions
+# List methods
 import random
 mylist =[1,3,10,5,2]
 print(mylist)
@@ -156,7 +156,7 @@ print(list3)
 list4 = userlist[::skip2]
 print(list4)
 
-Removing items from a list
+# Removing items from a list
 mylist = ["apple", "banana", "orange", "whisky", "strawberry"]
 print(mylist.index("banana"))
 print(mylist)
