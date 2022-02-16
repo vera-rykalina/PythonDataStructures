@@ -207,7 +207,7 @@ while counter < 3:
 - Let the user search the dictionary for a specific entry
 - If the entry is already present, ask the user for an update the entry; if the entry does not exist, add it to the dictionary
 - Run this option at least 3 times during one call of the program
-- Print out th eoriginal dictionary and the modified one at the end
+- Print out the original dictionary and the modified one at the end
 '''
 
 person = {"age": 32, "height": 170, "gender": "female",  "mood": "good",  "profession": "biologist", "salary": 70000, "smoking": False, "children": 0, "weight": 65,  "city": "Berlin"}
