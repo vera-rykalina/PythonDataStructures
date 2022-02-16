@@ -4,7 +4,7 @@
 - very similar to lists but tuples are IMMUTABLE
 - ordered (order cannot be changed)
 - indexed: mytuple[1] -> to get an element at the index 1
-- cannot be initialized as follows: my_tuple = ()
+- cannot be initiated as follows: my_tuple = ()
 '''
 
 mytuple = (1, 2, 3)
@@ -47,7 +47,7 @@ print(f"That is your output: {mytuple1[index4-1]}")
 - unordered collections of unique elements
 - unchangeable (an item cannot be replaced by another intem: can be either added or removed although)
 - unindexed (myset[1] - won't work!)
-- cannot be initialized as follows: myset = {} - this will generates an empty dictionary
+- cannot be initiated as follows: myset = {} - this will generates an empty dictionary
 - myset.pop()  -> this will remove the first element in the set
 - myset.add("new element") -> this will add a new element at the end of the set
 '''
