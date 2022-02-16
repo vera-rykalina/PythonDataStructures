@@ -1,7 +1,17 @@
 # Tuples
+'''
+- notation: mytuple = (1,2,3)
+- very similar to lists but tuples are IMMUTABLE
+- ordered (order cannot be changed)
+- indexed: mytuple[1] -> to get an element at the index 1
+- cannot be initialized as follows: my_tuple = ()
+'''
 
 mytuple = (1, 2, 3)
 print(mytuple)
+my_tuple = () # this will initialize an empty tuple
+print(type(my_tuple)) # <class 'tuple'>
+print(len(my_tuple)) # length of empty tuple is 0
 
 # Exercise
 # Create 4 tuples and print the item in each of them based on the user's input
@@ -33,6 +43,14 @@ index4 = int(input("What idex to print for tuple 4? "))
 print(f"That is your output: {mytuple1[index4-1]}")
 
 # Sets
+'''
+- unordered collections of unique elements
+- unchangeable (an item cannot be replaced by another intem: can be either added or removed although)
+- unindexed (myset[1] - won't work!)
+- cannot be initialized as follows: myset = {} - this will generates an empty dictionary
+- myset.pop()  -> this will remove the first element in the set
+- myset.add("new element") -> this will add a new element at the end of the set
+'''
 myset1 = {1, 2, 3}
 print(myset1)
 myset2 = {1,2,2,3,1}
