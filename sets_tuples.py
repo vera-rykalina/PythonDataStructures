@@ -32,7 +32,7 @@ print(f"That is your output: {mytuple1[index3-1]}")
 index4 = int(input("What idex to print for tuple 4? "))
 print(f"That is your output: {mytuple1[index4-1]}")
 
-Sets
+# Sets
 myset1 = {1, 2, 3}
 print(myset1)
 myset2 = {1,2,2,3,1}
@@ -46,7 +46,6 @@ mylist = {1,2,3,4,4}
 print(list(mylist)) # excludes repeats from ist
 
 # Exercise
-
 # Create 4 sets and add an item or remove an item based on the user's input
 len1 = int(input("Set length 1: "))
 len2 = int(input("Set length 2: "))
