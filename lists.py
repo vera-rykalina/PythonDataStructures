@@ -190,4 +190,4 @@ colors.remove(select_color)
 print(colors)
 print(f"You did it! The color {select_color} is out!")
 
-# comment placeholder
+
